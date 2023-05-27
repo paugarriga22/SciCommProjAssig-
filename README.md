@@ -1,6 +1,6 @@
 I am Pau Garriga Marsans and I am in the second course of Biomedical Engineering in the Universitat Pompeu Fabra. 
 
-The provided code implements a linear regression analysis. Linear regression is a statistical technique used to model the relationship between a dependent variable and one or more independent variables by fitting a linear equation to the observed data. The goal is to find the best-fitting line that minimizes the difference between the predicted values and the actual observed values.
+The provided code implements a linear regression analysis that I did for the introduction of my fauvorite subject: Evolutionary Algotithms. Linear regression is a statistical technique used to model the relationship between a dependent variable and one or more independent variables by fitting a linear equation to the observed data. The goal is to find the best-fitting line that minimizes the difference between the predicted values and the actual observed values.
 
 Here is a general and theoretical description of the code:
 
