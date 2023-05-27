@@ -2,27 +2,9 @@ I am Pau Garriga Marsans and I am in the second course of Biomedical Engineering
 
 The provided code implements a linear regression analysis that I did for the introduction of my fauvorite subject: Evolutionary Algotithms. Linear regression is a statistical technique used to model the relationship between a dependent variable and one or more independent variables by fitting a linear equation to the observed data. The goal is to find the best-fitting line that minimizes the difference between the predicted values and the actual observed values.
 
-Here is a general and theoretical description of the code:
+The code performs a linear regression analysis by generating synthetic data, adding noise, calculating errors [1], visualizing the data and errors, and optimizing the linear equation through iterative updates[2]. The ultimate goal is to estimate the coefficients of the linear equation that best describe the relationship between the independent and dependent variables.
 
-Importing Libraries: The code starts by importing the necessary libraries for numerical computations (NumPy), random number generation, and data visualization (matplotlib).
-
-Data Generation: The code generates synthetic data points along a linear relationship between an independent variable (x) and a dependent variable (y). The initial coefficients for the linear equation are defined as a0 and b0.
-
-Adding Noise: Gaussian noise is added to the dependent variable y to simulate real-world scenarios where observations may have some random variability.
-
-Visualizing the Data: The observations with added noise and the initial linear equation are visualized using a scatter plot and a line plot, respectively.
-
-Error Calculation: The code defines functions to calculate the errors between the predicted values based on different linear equations and the actual observed values. The errors are quantified using the mean squared error (MSE) metric. [1]
-
-Error Analysis: The code evaluates the errors for different sets of coefficients (a and b) by predicting the dependent variable y based on the independent variable x. The predicted values are plotted along with the observed values to visualize the differences.
-
-Error Heatmap: The code constructs a heatmap to represent the errors across a grid of different coefficient values (a and b). This visualization helps identify the regions with higher or lower errors.
-
-Iterative Optimization: The code demonstrates an iterative optimization process using gradient descent. It initializes random coefficients (a and b) and a learning rate (alpha) to update the coefficients iteratively. The goal is to minimize the error by adjusting the coefficients in the direction of steepest descent. [2]
-
-Error Convergence: The code tracks the error at each iteration and visualizes the convergence behavior by plotting the logarithm of the error against the number of iterations.
-
-Final Results: The code prints the final error, estimated coefficients (a and b), and the actual coefficients (a0 and b0) for comparison. It also plots the final estimated linear equation along with the observed data to visualize the fit.
+There are lots of state-of-the-art items in this field because linear regression is one of the most used techniques in a huge variety of areas, so my code is an example of all the work done by thousans of students and professionals in the world
 
 CODE IMPACT
 
